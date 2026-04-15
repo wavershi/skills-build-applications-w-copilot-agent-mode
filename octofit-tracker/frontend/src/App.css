@@ -1,0 +1,129 @@
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 8% 10%, rgba(29, 155, 240, 0.12), transparent 32%),
+    radial-gradient(circle at 90% 0%, rgba(30, 201, 153, 0.12), transparent 28%),
+    linear-gradient(180deg, #f6fbff 0%, #e8f1fb 100%);
+  color: #14324f;
+}
+
+.octofit-navbar {
+  background: linear-gradient(90deg, #0d2b52 0%, #123e72 100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.octofit-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.octofit-brand-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 4px 10px rgba(6, 20, 40, 0.35);
+}
+
+.octofit-inline-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 0.45rem;
+}
+
+.octofit-nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.octofit-nav-link:hover,
+.octofit-nav-link.active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.app-content {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.app-content .text-muted {
+  color: #4d677f !important;
+}
+
+.page-card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(18, 62, 114, 0.1);
+}
+
+.page-title {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  color: #0f3968;
+}
+
+.app-shell h1,
+.app-shell h2,
+.app-shell h3,
+.app-shell h4,
+.app-shell h5,
+.app-shell h6 {
+  color: #0f3968;
+}
+
+.app-shell a {
+  color: #0d6efd;
+}
+
+.app-shell a:hover {
+  color: #0946a8;
+}
+
+.table thead th {
+  background: linear-gradient(180deg, #e4efff 0%, #d4e7ff 100%);
+  color: #1a3d66;
+  font-weight: 700;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: rgba(202, 223, 247, 0.3);
+}
+
+.table tbody tr:hover {
+  background-color: rgba(124, 173, 230, 0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0d6efd 0%, #2c8bff 100%);
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(135deg, #0b5ed7 0%, #257be0 100%);
+  border-color: #0a58ca;
+}
+
+.btn-outline-primary {
+  border-color: #1b64c7;
+  color: #1b64c7;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #1b64c7;
+  border-color: #1b64c7;
+  color: #ffffff;
+}
+
+.modal-backdrop-soft {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(8, 20, 36, 0.45);
+  z-index: 1040;
+}

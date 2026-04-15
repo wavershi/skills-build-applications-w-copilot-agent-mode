@@ -2,8 +2,8 @@ from djongo import models
 from django.contrib.auth.models import AbstractUser
 
 class User(AbstractUser):
+    id = models.AutoField(primary_key=True)
     # Extend as needed
-    pass
 
 class Team(models.Model):
     name = models.CharField(max_length=100)
